@@ -60,6 +60,7 @@ main > article, nav{
 
 nav {
   display: flex;
+  flex-direction: column;
 }
 
 nav > a:not(:first-of-type){
@@ -149,7 +150,9 @@ footer {
   }
 
   section.hero > .call-to-action {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   main > article img {
