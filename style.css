@@ -116,7 +116,7 @@ main p {
 }
 
 main > article img {
-  float: left;
+  display: center;
   width: 300px;
   height: auto;
   margin-right: 24px;
