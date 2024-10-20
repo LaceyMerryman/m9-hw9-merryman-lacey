@@ -59,7 +59,7 @@ main > article, nav{
 }
 
 nav {
-  display: flex;
+  display: block;
 }
 
 nav > a:not(:first-of-type){
@@ -140,7 +140,7 @@ footer {
   }
 
   main article {
-    padding: 10px;
+    padding: 5px;
   }
 
   section.hero > .call-to-action {
@@ -148,7 +148,7 @@ footer {
   }
 
   main > article img {
-    align: center;
+    align-items: center;
     padding: 10px;
     margin: auto;
   }
