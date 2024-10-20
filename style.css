@@ -132,8 +132,21 @@ footer {
   color: var(--off-white);
 }
 
-@media screen and (max-width: 750px) {
-  main > aside {
-    float: none
+@media screen (max-width: 500px) {
+  nav {
+    display: block;
+    margin-right: 0px;
+    margin-bottom: 10px;
   }
+
+  main article {
+    padding: 10px;
+  }
+
+  section.hero > .call-to-action {
+    font-size: 2.5rem;
+  }
+
+
 }
+  
