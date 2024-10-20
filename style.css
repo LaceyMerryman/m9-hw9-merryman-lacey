@@ -147,6 +147,15 @@ footer {
     font-size: 2.5rem;
   }
 
+  article > img {
+    align: center;
+    padding: 10px;
+    margin: auto;
+  }
+
+  article {
+    margin-bottom: 10px;
+  }
 
 }
   
